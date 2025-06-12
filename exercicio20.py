@@ -1,15 +1,8 @@
-if (senhaDigitada.equals(senha)) {
-        System.out.println("Acesso permitido!");
-    }
-    while (!senha.equals(senhaDigitada)) {
-        System.out.println("Acesso negado!");
-        System.out.println("Tente novamente: ");
-        String tentativa = scanner.next();
+usuario = input("Digite seu usuário: ")
+senha = input("Digite sua senha: ")
 
-        if (tentativa.equals(senha)) {
-            System.out.println("Acesso permitido!");
-            break;
-        }
-    }
-}
-#finalidade
+if usuario == "admin" and senha =="1234":
+    print("Acesso concedido")
+else:
+    print("Acesso negado")
+    #finalizado
