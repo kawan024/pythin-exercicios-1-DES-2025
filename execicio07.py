@@ -1,6 +1,6 @@
 media1 = float(input("digite a primeira media: "))
 media2 = float(input("digite a segunda  media: "))
-media3 = float(input("digite a treseira nota: "))
+media3 = float(input("digite a terseira media: "))
 
 soma = media1 + media2 + media3
 
@@ -12,3 +12,4 @@ elif média  5 e <7
     print("recuperação")
 else média <5:
     print("reprovado")
+#finalizado
