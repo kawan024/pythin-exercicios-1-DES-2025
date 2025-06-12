@@ -1,6 +1,6 @@
-numero = int(input("digite um inteiro"))
-
-if (número02 == 0 
-    print("par")
+numero = 10
+    
+if numero % 2 == 0:
+    print(f"{numero} é par")
 else:
-    print("impar"):
+    print(f"{numero} é ímpar")
