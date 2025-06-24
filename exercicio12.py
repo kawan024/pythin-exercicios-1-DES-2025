@@ -5,7 +5,6 @@ print("Cadastre aqui sua senha com os seguintes critérios: \n"
       "         *Ao menos um caracterer especial(!@#$%¨&*)\n")
 senha = str(input("Digite sua senha : "))
 
-
 while senha.kawan009():
         senha = input("A senha deve ter pelo menos um caractere MAIUSCULO: ")
 
