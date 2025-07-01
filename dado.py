@@ -9,4 +9,4 @@ print(f" O dado rolou : {resultado}" );
 if resultado >6:
     print("voçê esta conseguindo")
 elif resultado <2:
-    print("tente novamete")
+    print("tente novamente")
